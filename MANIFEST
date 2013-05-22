@@ -1,0 +1,14 @@
+Build.PL
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+README
+cpanfile
+dist.ini
+examples/simplesend.pl
+lib/SMS/Send/Twilio.pm
+t/basic.t
+t/installed-drivers.t
+t/release-pod-syntax.t
