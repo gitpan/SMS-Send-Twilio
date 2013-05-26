@@ -25,11 +25,12 @@ requires:
   JSON::PP: 2.27101
   SMS::Send: 1.00
   WWW::Twilio::API: 0.15
+  parent: 0.220
   perl: 5.008005
 resources:
   bugtracker: https://github.com/mbeijen/SMS-Send-Twilio/issues
   homepage: https://github.com/mbeijen/SMS-Send-Twilio
   repository: https://github.com/mbeijen/SMS-Send-Twilio.git
-version: 0.10
+version: 0.11
 x_contributors:
   - 'Michiel Beijen <michiel.beijen@otrs.com>'
