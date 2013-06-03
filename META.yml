@@ -31,6 +31,4 @@ resources:
   bugtracker: https://github.com/mbeijen/SMS-Send-Twilio/issues
   homepage: https://github.com/mbeijen/SMS-Send-Twilio
   repository: https://github.com/mbeijen/SMS-Send-Twilio.git
-version: 0.11
-x_contributors:
-  - 'Michiel Beijen <michiel.beijen@otrs.com>'
+version: 0.12
