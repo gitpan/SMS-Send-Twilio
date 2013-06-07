@@ -10,7 +10,7 @@ use WWW::Twilio::API;
 
 use parent qw(SMS::Send::Driver);
 
-our $VERSION = '0.12';
+our $VERSION = '0.14';
 
 =encoding utf-8
 
@@ -24,7 +24,7 @@ SMS::Send::Twilio - SMS::Send backend for Twilio API
   # Create an object. There are three required values:
   my $sender = SMS::Send->new('Twilio',
     _accountsid => 'ACb657bdcb16f06893fd127e099c070eca',
-    _auth_token => 'b857f7afe254fa86c689648447e04cff',
+    _authtoken  => 'b857f7afe254fa86c689648447e04cff',
     _from       => '+15005550006',
     );
   
@@ -52,7 +52,7 @@ SMS::Send::Twilio is an SMS::Send driver for the Twilio web service.
   # Create a new sender using this driver
   my $sender = SMS::Send->new('Twilio',
     _accountsid => 'ACb657bdcb16f06893fd127e099c070eca',
-    _auth_token => 'b857f7afe254fa86c689648447e04cff',
+    _authtoken  => 'b857f7afe254fa86c689648447e04cff',
     _from       => '+15005550006',
   );
 
